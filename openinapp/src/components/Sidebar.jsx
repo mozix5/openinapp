@@ -34,7 +34,7 @@ const Sidebar = ({ show, setter }) => {
   return (
     <>
       <div
-        className={`flex flex-col bg-[#4285F4] max-md:h-screen max-md:fixed z-30 w-[15rem] overflow-y-auto  p-3 md:rounded-3xl ${appendClass}`}
+        className={`flex flex-col bg-[#4285F4] max-md:h-screen max-md:fixed z-40 w-[15rem] overflow-y-auto  p-3 md:rounded-3xl ${appendClass}`}
       >
         <div className=" text-4xl mt-8 mb-5 px-8 font-bold text-white">Board.</div>
         <div className="flex-1 flex flex-col gap-3 my-6">
