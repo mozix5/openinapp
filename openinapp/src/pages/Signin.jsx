@@ -72,7 +72,7 @@ const Signin = () => {
               </div>
               <div className="text-[#346BD4]">Forgot Password?</div>
               <button
-                className="bg-blue text-white mt-6 h-8 rounded-lg w-[100%] font-bold"
+                className="bg-[#4285F4] text-white mt-6 h-8 rounded-lg w-[100%] font-bold"
                 onClick={handleClick}
               >
                 Sign in
