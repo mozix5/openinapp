@@ -30,12 +30,12 @@ const Modal = () => {
   const [isNext, setIsNext] = useState(false);
 
   return (
-    <div className="fixed inset-0 bg-slate-100 bg-opacity-0 overflow-y-auto h-full w-full z-20 flex justify-center items-center">
+    <div className="fixed inset-0 bg-slate-100 bg-opacity-0 overflow-y-auto h-full w-full z-40 flex justify-center items-center">
       <div
         className="fixed inset-0 w-full h-full bg-slate-600 opacity-20"
         onClick={closeModal}
       ></div>
-      <div className="w-[34%] relative rounded-2xl bg-white">
+      <div className="lg:w-[34%] w-[90%] relative rounded-2xl bg-white">
         <div className="text-lg font-semibold border-b-2 border-slate-200 text-slate-600 py-4 px-5">
           Add New Profile
         </div>
