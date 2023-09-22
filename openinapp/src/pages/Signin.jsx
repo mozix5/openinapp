@@ -12,7 +12,6 @@ const Signin = () => {
 
   return (
     <>
-      {/* {user? navigate("/") : navigate("/login")} */}
       <div className="flex lg:flex-row h-screen w-screen flex-col">
         <div className="bg-[#4285F4] text-white lg:w-[45%] flex items-center justify-center flex-col max-lg:h-28 lg:-skew-x-6 origin-top ">
           <div className="text-6xl font-bold lg:skew-x-6">Board.</div>
@@ -22,7 +21,6 @@ const Signin = () => {
             <AiFillTwitterCircle className=" cursor-pointer hover:scale-125 transition" />
             <IoLogoLinkedin className=" cursor-pointer hover:scale-125 transition" />
             <IoLogoDiscord className=" cursor-pointer hover:scale-125 transition" />
-            {/* <BsLinkedin/> */}
           </div>
         </div>
         <div className="  flex-1 flex items-center justify-center flex-col">
